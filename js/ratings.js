@@ -1,10 +1,11 @@
+
+
 // create a function called collect_ratings(). This function does not accept any arguments.
 //In the body of the collect_ratings() function, create an object named ratings. The object should have three properties count, sum, and average all set to 0.
 //Still in the body of the collect_ratings() function, create a variable with the let keyword called rating. Give it the initial value of 0.
 
 function collect_ratings(){
-ratings = {count:0, sum:0, average:0};
-
+let ratings = {count:0, sum:0, average:0};
 let rating = 0;
 };
 
@@ -21,6 +22,11 @@ let rating = 0;
 //The querySelectorAll() method creates an array that should be stored in a constant called elements.
 
 const elements = document.querySelectorAll(rating);
+
+
+
+
+
 
 //Cycle through the elements array with a forEach loop.
 // Pass an anonymous or arrow function to the forEach loop. 
